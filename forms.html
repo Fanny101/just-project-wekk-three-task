@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="./tjp-2.png" type="image/x-icon">
+  <title>Contact Form</title>
+</head>
+
+  <body id="form-body">
+
+
+  <div id="contact_card">
+
+
+    <div class="contact_card_details">
+  <h1 class="contact_card_heading">Contact form</h1>
+
+  <form action="">
+
+    <div class="contact_card_name">
+      <label for="name"  class="label">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="contact_card_username">
+      <label for="username" class="label">Username:</label>
+      <input type="text" id="username" placeholder="Enter your username" required>
+    </div>
+
+    <div class="contact_card_password">
+      <label for="password"  class="label">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+    </div>
+
+    <div class="contact_card_retype_password">
+      <label for="reTypePassword"  class="label">Re-type Password:</label>
+       <input type="password" id="reTypePassword" placeholder="Enter your password" required>
+    </div>
+
+    <div class="contact_card_gender">
+      <label for="" class="label">Gender:</label>
+
+      <div class="contact_card_gender_selector">
+        <input type="radio" name="genderSelector" id="male">
+        <label for="male"  class="sub_label">Male</label>
+        <input type="radio" name="genderSelector" id="female">
+        <label for="female"  class="sub_label">Female</label>
+      </div>
+
+    </div>
+
+    <div class="contact_card_tech_skills">
+      <label for="" class="label">Techie skills:</label>
+
+      <div class="contact_card_tech_skills_selector">
+        <input type="checkbox" id="html" value="html">
+        <label for="html" class="sub_label">HTML</label>
+        <input type="checkbox" id="css" value="css">
+        <label for="css" class="sub_label">CSS</label>
+        <input type="checkbox" id="js" value="javascript">
+        <label for="js" class="sub_label">Javascript</label>
+      </div>
+
+    </div>
+
+    <div class="contact_card_phone_number">
+      <label for="number" class="label">Phone Number:</label>
+       <input type="tel" id="number" placeholder="Enter your number" required>
+    </div>
+
+    <div class="contact_card_email">
+      <label for="email" class="label">Email:</label>
+       <input type="email" id="email" placeholder="Enter your email address" required>
+    </div>
+
+    <div class="contact_card_college">
+      <label for="" class="label">College:</label>
+
+      <div class="contact_card_college_selector">
+        <select name="dropdown" id="select_college" required>
+          <option value="select">Select a college</option>
+          <option value="unilag">University Of Lagos</option>
+          <option value="UI">University Of Ibadan</option>
+          <option value="uniben">University Of Benin</option>
+          <option value="uniport">University Of Port-Hacourt</option>
+          <option value="cu">Convenant University</option>
+          <option value="lasu">Lagos State University</option>
+          <option value="eksu">Ekiti State University</option>
+          <option value="unizik">Nsukka University</option>
+          <option value="hu">Hallmark University</option>
+          <option value="bu">Babcock University</option>
+        </select>
+
+      </div>
+
+      
+
+    </div>
+
+<div class="contact_card_button">
+           <button class="contact_card_button_submit">Submit</button>
+      </div>
+
+    </div>
+
+
+  </div>
+
+    </form>
+
+
+
+
+<!--
+  <div class="contact_card">
+
+  <div class="contact_card_details">
+<h1>Contact Card</h1>
+
+<div id="card">
+  <form action="">
+
+    <div class="left_side">
+      <div>
+     <label for="name">Name</label>        
+      </div>
+
+      <div>
+     <label for="username">Username</label>        
+      </div>
+
+      <div>
+     <label for="password">Password</label>        
+      </div>
+
+      <div>
+     <label for="retypePassword">Re-type Password</label>        
+      </div>
+
+      <div>
+     <label for="">Gender</label>        
+      </div>
+
+      <div>
+     <label for="">Techie Skills</label>        
+      </div>
+
+      <div>
+     <label for="number">Phone_number</label>        
+      </div>
+
+      <div>
+     <label for="email">Email</label>        
+      </div>
+
+      <div>
+     <label for="">College</label>        
+      </div>
+
+
+
+      <div class="right_side">
+       <div>
+           <input type="text" id="name" placeholder="Enter your name" required>
+         </div>
+
+       <div>
+           <input type="text" id="username" placeholder="Enter your username" required>
+       </div>
+
+       <div>
+        <input type="password" id="password" placeholder="Enter your password" required>
+       </div>
+
+       <div>
+        <input type="password" id="retypePassword" placeholder="Enter your password" required>
+       </div>
+
+       <div>
+        <input type="radio" name="genderSelector" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="genderSelector" id="female">
+        <label for="female">Female</label>
+       </div>
+
+       <div>
+        <div class="contact_card_tech_skills_selector">
+          <input type="checkbox" id="html" value="html">
+          <label for="html">HTML</label>
+          <input type="checkbox" id="css" value="css">
+          <label for="css">CSS</label>
+          <input type="checkbox" id="js" value="javascript">
+          <label for="js">Javascript</label>
+       </div>
+
+       <div>
+       <input type="tel" id="number" placeholder="Enter your number" required>
+       </div>
+
+       <div>
+        <input type="email" id="email" placeholder="Enter your email address" required>
+       </div>
+
+       <div>
+        <select name="dropdown" id="select_college">
+          <option value="select">Select a college</option>
+          <option value="unilag">University Of Lagos</option>
+          <option value="UI">University Of Ibadan</option>
+          <option value="uniben">University Of Benin</option>
+          <option value="uniport">University Of Port-Hacourt</option>
+          <option value="cu">Convenant University</option>
+          <option value="lasu">Lagos State University</option>
+          <option value="eksu">Ekiti State University</option>
+          <option value="unizik">Nsukka University</option>
+          <option value="hu">Hallmark University</option>
+          <option value="bu">Babcock University</option>
+        </select>
+       </div>
+
+       <div class="contact_card_button">
+        <button class="contact_card_button_submit">Submit</button>
+   </div>
+
+
+
+
+      </div>
+    </div>
+
+  </form>
+</div>
+  </div>
+
+</div>
+-->
+
+
+
+
+
+
+
+
+</body>
+</html>
+
